@@ -1,0 +1,148 @@
+ 
+*{
+	margin:0px;
+	padding:0px;
+}
+#main-div{
+	width:960px;
+	margin:0 auto;
+	margin-top:40px;
+ 
+	position:relative;
+}
+#header{
+	background:orange;
+	border-bottom:4px solid black;
+	padding:15px; 
+}
+#header h2{
+	color:black; 	   
+} 
+#header p{
+	color:white; 
+	display:block;
+}
+.menu{
+	border-bottom:4px solid black;
+	 
+}
+.menu  ul{
+	list-style:none; 
+	height:30px; 	 
+}
+.menu ul li {
+	float:left;
+	border-right: 1px solid #a3a09a;
+    border-left: 1px solid #0e0d0d;
+	width:16%;
+	position:relative;
+	
+}
+.menu ul li:last-child{
+	border-right:none;
+}
+.menu ul li:first-child{
+	border-left:none; 
+}
+.menu ul li a:hover{
+	background:#841409; 
+	
+}
+.menu ul li a {
+	text-decoration:none;
+	color:#363232;
+	display:block;
+	padding:6px 16px;
+}
+.menu ul li ul {
+	position:absolute;
+	left:-99999px;
+	z-index:999;
+	 
+}
+.menu ul li ul li {
+	width:200px;
+	 border-right:none; 
+	 border-left:none;
+	border-top: 1px solid #a3a09a;
+    border-bottom: 1px solid #0e0d0d;
+}
+.menu ul li ul li:first-child{
+	border-top:none;
+}
+.menu ul li ul li:last-child{
+	border-bottom:none;
+}
+.menu ul li:hover ul{
+	position:absolute;
+	left:0px;
+}  
+.slider{
+	border-bottom:4px solid black;
+}
+section{
+	width:100%;
+	 display:block; 
+}  
+ 
+#article-wrap{
+	border-top:4px solid black;
+	width:960px;
+	height:auto; 
+	padding-bottom:00px;
+	 
+} 
+  #left-article{
+	width:600px; 
+	margin-top:0px;
+	float:left;
+	
+}
+  #left-article h2{ 
+	 margin-left:20px;
+	 display:block;
+	 padding:20px;
+	 padding-bottom:0px;
+	   
+}
+  #left-article p{
+	 margin-top:20px;
+	 margin-left:10px;
+	  display:block;
+	  color:#999292;
+}
+ .right-article{
+	width:200px;
+	margin-left:00px; 
+	margin-top:0px;
+	float:left;
+}
+ .right-article h3{
+	 margin-top:40px  ;
+	 margin-right:50px;
+	 display:block;
+}
+.list ul  {
+	 margin:10px 20px;
+	 list-style:circle;
+ 	
+}
+.list ul li a{
+	text-decoration:none;
+	display:block;
+	color:#999292;
+} 
+.foter{
+	 width:100%; 
+	 margin-top:50px;
+	 height:40px;
+}
+.foter p{  
+	width:100%;
+	background:#8f3b3b;
+	color:#07f274;
+	padding:10px  ;	 
+	text-align:center;
+	float:left; 
+}
+ 
